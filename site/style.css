@@ -1,0 +1,55 @@
+/*CABEÇALHO */
+.cabecalho a{width:100%; float:left; padding:50px 8%; background-color:#13c7ae;}
+.logo a {width:239px; height:48px; float:left; background: url(../img/logo.jpg) no-repeat;font-size: 0;}
+.cabecalho form {width:30%; float:rigth;}
+.cabecalho  input [type="text"] {width:85%; float:left; padding:15px 10px; border-radius: 5px 0  0 5px;}
+.cabecalho  button {width:15%; float:right; padding:15px 10px;background-color:#0cae98;color:#fff;
+    cursor:pointer;border-radius: 0 5px 5px 0;}
+
+.bg-rosa{
+    background-color: rgb(255, 192, 192);
+}
+.bg-vinho{
+    background-color: rgb(255, 128, 128);
+}
+body{
+    background-color: rgb(255, 254, 172);
+}
+
+.footer {
+    background: rgb(255, 192, 192);;
+    padding: 10px 0;
+  }
+  .footer a {
+    color: rgb(255, 128, 128);
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid rgb(255, 128, 128);
+    transition: all .5s ease;
+  }
+  .footer a:first-child {
+    border-left: 1px solid rgb(255, 128, 128);
+  }
+  .footer a:hover {
+    color: white;
+  }
+/*SOCIAL ICONS*/
+.social-icons {float:left; size: 20px;}
+.social-icons a{color:rgb(136, 130, 130); float:left; margin-left:22px;}
+.btn-facebook:hover{color:rgb(0, 0, 0); }
+.btn-twitter:hover{color:rgb(0, 0, 0);}
+.btn-google:hover{color:rgb(0, 0, 0);}
+
+
+/*RODAPÉ */
+.rodape { width :100%; float:left; background-color:rgb(255, 192, 192); padding:20px 8%;}
+.rodape p{ color:rgb(15, 13, 13); }
+.body
+.h3{font-family: 'Times New Roman', Times, serif;
+color: rgb(66, 14, 114);
+}
+.row .col-md-4 .thumbnail{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  color: black;
+}

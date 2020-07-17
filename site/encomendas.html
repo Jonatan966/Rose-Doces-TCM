@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Encomendas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-rosa">
+    <a class="navbar-brand" href="#">
+        <img src="img/logotipo 2.png" width="40" height="40" class="d-inline-block align-top" alt="">
+        Rosse Bolos
+    </a>
+    <button class="navbar-toggler bg-vinho" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"> HOME <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="encomendas.html">ENCOMENDAS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="bolos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            BOLOS
+          </a>
+          <div class="dropdown-menu bg-vinho" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="casamento.html">BOLO DE CASAMENTO</a>
+            <a class="dropdown-item" href="aniver.html">BOLO DE ANIVERSÁRIO</a>
+            <a class="dropdown-item" href="15anos.html">BOLO DE DEBUTANTE</a>
+            <a class="dropdown-item" href="simples.html">BOLO TRADICIONAL</a>
+            <a class="dropdown-item" href="cupcakes.html">CUPCAKE</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              DOCES
+            </a>
+            <div class="dropdown-menu bg-vinho" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="brigadeiro.html">BRIGADEIRO</a>
+              <a class="dropdown-item" href="beijinho.html">BEIJINHO</a>
+              <a class="dropdown-item" href="mousse.html">MOUSSE</a>
+              <a class="dropdown-item" href="caju.html">TORTAS</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="informacoes.html">MAIS INFORMAÇÕES</a>
+        </li>
+      </ul>
+      </ul>
+    </div>
+</nav>
+<br><br>
+<h3 align="center"><b>Faça seus pedidos agora mesmo!</b></h3><br><br>
+
+<div class="container">
+<div class="row">
+    <div class="col-md-4 shadow">
+      <div class="thumbnail">
+          <img class="rounded" src="img/t.jpg" width="450" height="450" alt="Lights" style="width:100%">
+          <div class="caption">
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img class="rounded" src="img/b.jpg" width="450" height="450"  alt="Nature" style="width:100%">
+          <div class="caption">
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img class="rounded" src="img/ver.jpg" width="450" height="450"  alt="Fjords" style="width:100%">
+          <div class="caption">
+          </div>
+      </div>
+    </div>
+  </div><br><br>
+</div>
+<form name="formteste" action="" method="post" style="background-color: transparent;">
+
+<h2 align="center"><b>Cadastro</b></h2>
+                      
+<p class="nome">
+<label>Nome Completo:</label>
+<input type="text" name="nome" required="required">
+</p>
+                      
+<p class="email">
+  <label>E-mail:</label>
+<input type="email" name="email" required="required">
+</p>
+                      
+<p class="telefone">
+<label>Telefone:</label>
+<input type="text" name="telefone" required="required">
+</p>
+
+<p class="endereco">
+    <label>Endereço:</label>
+    <input type="text" name="endereco" required="required">
+    </p>
+    
+<p class="enviar">
+<input type="submit" name="enviar" value="Enviar">
+</p>
+</form> 
+<footer class="rodape">
+    <div class="social-icons">
+     <a href="https://www.facebook.com/Rosse-Bolos-e-Doces-2063953187239987/" class="btn-facebook"><i class="fa fa-facebook fa-lg"></i></a>
+    <a href="https://twitter.com/BolosRosse" class="btn-twitter"><i class="fa fa-twitter fa-lg"></i></a>
+       <a href=" https://www.instagram.com/bolos_rosse/?hl=pt-br " class="btn-instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+            
+   <ul>         <h4 align="right">Contatos</h4><br>
+    <li align="left"><a href="perguntas.html">Perguntas Frequentes</a></li>
+  <li align="right"><i class="fa fa-phone fa-lg"></i>   (011) 3924-7646 </li> <li align="left"><a href="uso.html">Termos de Uso</a></li> 
+  <li align="right"><i class="fa fa-whatsapp fa-lg"></i>   (011) 96152-4259</li> <li align="left"><a href="poli.html">Política de Privacidade</a></li>
+  <li align="right"><i class="fa fa-envelope fa-lg"></i>   bolosdoces.rosse.br@gmail.com</li>	<li align="left"><a href="cliente.html">Atendimento ao Cliente</a></li>
+
+</ul>       
+<p align="center"> 1ºDS - Todos os direitos reservados - 2019</p>
+</footer>  
+
+</body>   
+</html>

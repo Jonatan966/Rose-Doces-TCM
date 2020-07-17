@@ -1,0 +1,114 @@
+/*CABEÇALHO */
+.cabecalho a{width:100%; float: left; padding:50px 8%; background-color:#f5d7e7;}
+.cabecalho form {width:30%; float:rigth;}
+.cabecalho  input [type="text"] {width:85%; float: left; padding:15px 10px; border-radius: 5px 0  0 5px;}
+.cabecalho  button {width:15%; float:left; padding:15px 10px;background-color:#e9d787;
+    cursor:pointer;border-radius: 0 5px 5px 0;}
+
+body{
+  background-color: #e9d787;
+}
+/*MENU */
+.bg-rosa{
+  background-color: rgb(245, 190, 190);
+ font-family: 'Times New Roman';}
+.bg-vinho{
+  background-color: rgb(245, 190, 190); color: #f0c0e4;
+font-family: 'Times New Roman';}
+.footer {
+  background: rgb(255, 190, 190);;
+  padding: 10px 0;
+}
+.footer a {
+  color: rgb(255, 128, 128);
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  padding: 10px;
+  border-right: 1px solid rgb(255, 128, 128);
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid rgb(255, 128, 128);
+}
+.footer a:hover {
+  color: rgb(131, 31, 117);
+}
+.dro
+/* FORMULÁRIO */
+body{
+  margin: 0;
+  padding: 0;
+  }
+  form{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background: white;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 10px 10px 10px;
+  }
+  h1{
+  color: rgb(153, 33, 137); align-self: center;
+  }
+  .enviar input {
+    background-color: rgb(221, 34, 212);
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: #FFF;
+    cursor: pointer;
+    }
+    .enviar input:hover{
+    background: rgb(245, 183, 226);
+    }
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+   /*RODAPÉ*/
+.rodape { width :100%; float:left; background-color:rgb(245, 190, 190); padding:20px 8%;
+font-family: 'Times New Roman', Times, serif; text-align: left; font-size: 18px;} 
+.rodape p{ color:rgb(0, 0, 0); }
+.rodape li{color:rgb(0, 0, 0); margin-left: 10px; font-family: 'Times New Roman', Times, serif; font-size: 18x;}
+.rodape li a:hover{color:rgb(252, 106, 174);}
+ul{ list-style-type:none}
+.social-icons {float:right;}
+.social-icons a{color:rgb(87, 85, 85); float: right; margin-left:24px;}
+.btn-instagram:hover{color: rgb(22, 22, 22);}
+.btn-facebook:hover{color:rgb(22, 22, 22);}
+.btn-twitter:hover{color:rgb(22, 22, 22);}
+ul li a{color: rgb(0, 0, 0);
+font-family: 'Times New Roman', Times, serif;}
+
+.body{
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    color: #333333;
+    font-size: 12px;
+}
+.p{
+  line-height: 18px;
+  text-transform: none;
+}
+h4{
+  font-family: 'Times New Roman', Times, serif;
+}
+.thumbnail{
+  background-size: 150px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
